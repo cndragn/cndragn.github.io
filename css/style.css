@@ -109,4 +109,7 @@ header {
 /* BLOG */
 .blog {
   display: block;
+    background-color: #fff;
+    width: 100%;
+    padding: 2em 4em;
 }
