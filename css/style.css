@@ -109,7 +109,16 @@ header {
 /* BLOG */
 .blog {
   display: block;
-    background-color: #fff;
-    width: 100%;
-    padding: 2em 4em;
+  background-color: #fff;
+  width: 100%;
+  padding: 2em 4em;
+}
+.blog h1 {
+  color: #34c587;
+}
+blog a {
+  color: #339a8f;
+}
+blog a:hover {
+  color: #4bb8ac;
 }
