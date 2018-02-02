@@ -105,3 +105,8 @@ header {
 .contact i {
   margin-right: 0.5em;
 }
+
+/* BLOG */
+.blog {
+  display: block;
+}
