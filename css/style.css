@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4bb8ac;
+  font-family: "Josefin Sans",sans-serif;
+}
+
+h2 {
+  color: #fff;
+}
+
+/* HEADER */
+
+header {
+  background: #2cb2d9;
+  background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
+  color: #fff;
+  overflow: auto;
+  padding: 5em 6em;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* PHOTO */
+
+.headshot{
+  text-align: center;
+  width: 50%;
+}
+.headshot img {
+  border: 6px solid #fff;
+  border-radius: 50%;
+  width: 16em;
+}
+
+/* BIO */
+
+.bio {
+  width: 50%;
+}
+.bio p {
+  font-size: 1.7em;
+}
+
+/* SOCIAL MEDIA */
+
+.social {
+  border-top: 2px solid white;
+  background-color: #f9f6e6;
+}
+.social ul {
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+.social li {
+  display: inline;
+  margin: 0 2em;
+}
+
+.social a {
+  color: #117390;
+  text-decoration: none;
+}
+
+/* MAIN CONTENT */
+
+.content {
+  padding: 5em 6em;
+  display: flex;
+}
+.content a {
+  color: #000;
+}
+
+.projects, .contact {
+  margin: 0 5em;
+}
+
+/* PROJECTS */
+
+.projects {
+  float: left;
+}
+.git {
+  text-align: center;
+}
+.git img {
+  max-width: 100%;
+    width: 25em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+/* CONTACT INFO */
+.contact {
+  width: 15em;
+}
+
+.contact i {
+  margin-right: 0.5em;
+}
