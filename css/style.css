@@ -132,6 +132,9 @@ header {
 .blog h1, .blog h2 {
   color: #34c587;
 }
+.blog h2 {
+  clear: both;
+}
 .blog a {
   color: #339a8f;
   font-weight: 600;
