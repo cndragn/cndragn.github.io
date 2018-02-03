@@ -116,6 +116,7 @@ header {
   display: block;
   background-color: #fff;
   height: 100%;
+  width: 100%;
   padding: 2em 4em;
 }
 .blog-nav {
