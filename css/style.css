@@ -120,14 +120,14 @@ header {
   padding: 2em 4em;
 }
 .blog-nav {
-    text-align: right;
+  text-align: right;
 }
 .blog-nav li {
-    display: inline;
-    margin-left: 2em;
+  display: inline;
+  margin-left: 2em;
 }
 .blog-nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .blog h1, .blog h2 {
   color: #34c587;
@@ -141,8 +141,11 @@ header {
 }
 .blog img {
   max-width: 100%;
+  padding: 0.4em;
+  margin: 1em;
+}
+.bdr {
   border: 3px solid #4bb8ac;
-  padding: 5px;
 }
 .posts li {
   margin: 1em 0;
