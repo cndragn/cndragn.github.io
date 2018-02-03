@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "End of Week 3"
+title: "Wyncode Week 3"
 date: 2018-01-26
 ---
 
