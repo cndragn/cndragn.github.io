@@ -111,7 +111,15 @@ header {
   display: block;
   background-color: #fff;
   width: 100%;
+  height: 100vh;
   padding: 2em 4em;
+}
+.blog-nav {
+    text-align: right;
+}
+.blog-nav li {
+    display: inline;
+    margin-left: 2em;
 }
 .blog h1, .blog h2 {
   color: #34c587;
@@ -127,4 +135,8 @@ header {
   max-width: 100%;
   border: 3px solid #4bb8ac;
   padding: 5px;
+}
+.posts li {
+  margin: 1em 0;
+  list-style: none
 }
