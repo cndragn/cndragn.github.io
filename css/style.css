@@ -76,6 +76,7 @@ header {
 
 .content {
   padding: 5em 6em;
+  height: 100%;
   display: flex;
 }
 .content a {
@@ -124,6 +125,9 @@ header {
 .blog-nav li {
     display: inline;
     margin-left: 2em;
+}
+.blog-nav a {
+    text-decoration: none;
 }
 .blog h1, .blog h2 {
   color: #34c587;
