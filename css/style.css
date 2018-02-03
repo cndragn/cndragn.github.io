@@ -116,9 +116,9 @@ header {
 .blog h1 {
   color: #34c587;
 }
-blog a {
+.blog a {
   color: #339a8f;
 }
-blog a:hover {
+.blog a:hover {
   color: #4bb8ac;
 }
