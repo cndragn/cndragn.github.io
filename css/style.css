@@ -113,7 +113,7 @@ header {
   width: 100%;
   padding: 2em 4em;
 }
-.blog h1 {
+.blog h1, .blog h2 {
   color: #34c587;
 }
 .blog a {
@@ -122,4 +122,7 @@ header {
 }
 .blog a:hover {
   color: #4bb8ac;
+}
+.blog img {
+  max-width: 100%;
 }
