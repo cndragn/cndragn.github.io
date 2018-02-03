@@ -125,4 +125,6 @@ header {
 }
 .blog img {
   max-width: 100%;
+  border: 3px solid #4bb8ac;
+  padding: 5px;
 }
