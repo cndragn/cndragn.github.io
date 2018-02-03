@@ -118,6 +118,7 @@ header {
 }
 .blog a {
   color: #339a8f;
+  font-weight: 600;
 }
 .blog a:hover {
   color: #4bb8ac;
