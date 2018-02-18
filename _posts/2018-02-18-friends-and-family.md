@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Wyncode Week 6: Friends and Family Night"
+date: 2018-02-18
+---
+
+This has been a most trying week, to say the least.  What a whirlwind with ups and downs and everything in-between!  I really don't even know where to start...I'm exhausted. Whew!  Well, I'll start with the best and most satisfying... our Friends and Family project ended up really awesome. I'm really proud of it and all the work that went into it. Kalil and I aced the presentation.  I'm so glad its over!!!
+
+We decided to make our user story based on Dwyane Wade, a Cleveland basketball player who checks out our app to explore the city he loves and misses...Miami of course!  So he selects different categories to see some cool pictures of Miami, can log in to enter one of his favorite pictures...one of the American Airlines Arena and as a user, he can also leave comments on pictures. He realized just how much he needs to come back, returns to the Miami Heat to the welcoming cheers of his adoring fans...all thanks to Fotoscape!  Hah! After such an intense week working on the app, it was a lot of fun coming up with a user story for it.
+
+Kalil worked on the login and also the photo sharing and commenting.  I set up Rails, the API from Flikr for the city photos, and scraped from a Top 10 site to display randomized top attractions for whatever city was selected.  Jeff ended up leaving Wyncode, and so I also did the front end design and layout for the site.  When it comes to the challenge of working on this project...that would be it. Suddenly losing a team member over the weekend and then having to do his entire part of the project too was pretty stressful, but Kalil and I pulled a few all nighters and some how, some way got everything done that we set out to do.  Stress levels were high and things got kind of tense for awhile there, but at the end of the day, we were an awesome team because we managed to handle conflict resolution and were proud of what we accomplished.  
+
+Wyncode really set us up for success when it came to presentation night...they gave us very detailed guidelines on how to set up our user story, an outline for the progression of our slides, helped us refine our presentation and we practiced so much I think I will remember every word of the presentation for at least the next 5 years! Really, they prepared us so well that when it came to standing in front of our family and friends, we were nervous, yet confident.  Thank goodness because my group ended up being the first one to present!  My daughter came, and so did my friend Angela...every time I looked at them while presenting, they were looking at me all beaming with pride that I felt less nervous and mostly amazing to show off everything we learned so far.
