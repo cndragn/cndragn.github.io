@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Josefin Sans',Helvetica,Arial,sans-serif;
   background-color: #2cb2d9;
@@ -116,16 +120,14 @@ h3 {
 
 /* PROJECTS */
 .projects {
-  padding: 0 2.25rem;
+  padding: 0 1.25rem;
 }
 
-.git img {
+.projects img {
   max-width: 100%;
-    width: 25em;
-    text-align: center;
-    margin-top: 1em;
+  border: 8px solid #f9f6e6;
+  margin-bottom: 2rem;
 }
-
 /* FOOTER */
 footer {
   background-color: #0da2ce;
