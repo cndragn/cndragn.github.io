@@ -1,0 +1,21 @@
+---
+layout: default
+title: Candice Davidson | Blog
+---
+<div class="content">
+  <div class="blog">
+    <ul class="blog-nav">
+        <li>Candice Davidson |</li>
+        <li><a href="/index.html">Portfolio</a></li>
+        <li><a href="/blog/index.html">Blog</a></li>
+    </ul>
+
+    <h1>Sometimes, I say things...</h1>
+    <ul class="posts">
+
+      {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
