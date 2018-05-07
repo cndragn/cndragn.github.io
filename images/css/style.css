@@ -6,9 +6,6 @@ body {
   font-family: 'Josefin Sans',Helvetica,Arial,sans-serif;
   background-color: #2cb2d9;
 }
-.mb-20 {
-  margin-bottom: 20px;
-}
 
 /* TOP NAVIGATION */
 .navbar {
@@ -65,11 +62,6 @@ p.lead {
 }
 
 /* SOCIAL */
-
-.container p {
-    font-size: 1.3rem;
-}
-
 .social {
   border-top: 2px solid white;
   background-color: #f9f6e6;
@@ -134,7 +126,7 @@ h3 {
 .projects img {
   max-width: 100%;
   border: 8px solid #f9f6e6;
-  /* margin-bottom: 2rem; */
+  margin-bottom: 2rem;
 }
 /* FOOTER */
 footer {
