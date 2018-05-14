@@ -160,6 +160,25 @@ footer .brand-name {
   padding: 0;
 }
 
+/* BLOG */
+
+body .blog {
+  font-size: 1.2rem;
+}
+
+.blog-nav li {
+  display: inline-block;
+}
+
+.blog h1 {
+  font-weight: bold;
+  border-bottom: 4px solid #20a2ce;
+}
+
+.blog li {
+    list-style-type: none;
+}
+
 /* MEDIA QUERY */
 @media screen and (max-width: 850px) {
 
