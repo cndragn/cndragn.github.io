@@ -12,6 +12,6 @@ So thankful to have learned to push away and clear my mind, because if I hadn't,
 
 There are some things I would do differently...bootstrap for instance.  It wasn't until I uploaded my project to Github that I realized how huge my css file was!  It really doesnt make sense to install Bootstrap and every single little thing that comes with it.  On another note, was Bootstrap really necessary for such a small project? It's convenient, but holy file size! I probably should have just used a CDN.  Thats something to look into for future projects...
 
-BTW... Check it all out here on my Github!  https://github.com/cndragn/ideaboard-react
+BTW... Check it all out here on my Github!  [https://github.com/cndragn/ideaboard-react](https://github.com/cndragn/ideaboard-react)
 
 ![Idea Board](http://candicedavidson.com/images/ideaboard.png)
