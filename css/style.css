@@ -166,6 +166,10 @@ body .blog {
   font-size: 1.2rem;
 }
 
+.blog p {
+  color: inherit;
+}
+
 .blog-nav li {
   display: inline-block;
 }
