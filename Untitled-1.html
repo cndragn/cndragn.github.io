@@ -1,0 +1,1004 @@
+<html lang="en" data-react-helmet="lang">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style data-href="/styles.3e22d6423d2206c29e97.css">
+      @import url(https://use.fontawesome.com/releases/v5.7.2/css/all.css);
+      @import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+      @import url(https://use.fontawesome.com/releases/v5.0.8/css/all.css);
+      @import url(https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway:400,800);
+      code[class*="language-"],
+      pre[class*="language-"] {
+        color: #657b83;
+        font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+        text-align: left;
+        white-space: pre;
+        word-spacing: normal;
+        word-break: normal;
+        word-wrap: normal;
+        line-height: 1.5;
+        -moz-tab-size: 4;
+        -o-tab-size: 4;
+        tab-size: 4;
+        -webkit-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none;
+      }
+      code[class*="language-"]::selection,
+      code[class*="language-"] ::selection,
+      pre[class*="language-"]::selection,
+      pre[class*="language-"] ::selection {
+        background: #073642;
+      }
+      pre[class*="language-"] {
+        padding: 1em;
+        margin: 0.5em 0;
+        overflow: auto;
+        border-radius: 0.3em;
+      }
+      :not(pre) > code[class*="language-"],
+      pre[class*="language-"] {
+        background-color: #fdf6e3;
+      }
+      :not(pre) > code[class*="language-"] {
+        padding: 0.1em;
+        border-radius: 0.3em;
+      }
+      .token.cdata,
+      .token.comment,
+      .token.doctype,
+      .token.prolog {
+        color: #93a1a1;
+      }
+      .token.punctuation {
+        color: #586e75;
+      }
+      .namespace {
+        opacity: 0.7;
+      }
+      .token.boolean,
+      .token.constant,
+      .token.deleted,
+      .token.number,
+      .token.property,
+      .token.symbol,
+      .token.tag {
+        color: #268bd2;
+      }
+      .token.attr-name,
+      .token.builtin,
+      .token.char,
+      .token.inserted,
+      .token.selector,
+      .token.string,
+      .token.url {
+        color: #2aa198;
+      }
+      .token.entity {
+        color: #657b83;
+        background: #eee8d5;
+      }
+      .token.atrule,
+      .token.attr-value,
+      .token.keyword {
+        color: #859900;
+      }
+      .token.class-name,
+      .token.function {
+        color: #b58900;
+      }
+      .token.important,
+      .token.regex,
+      .token.variable {
+        color: #cb4b16;
+      }
+      .token.bold,
+      .token.important {
+        font-weight: 700;
+      }
+      .token.italic {
+        font-style: italic;
+      }
+      .token.entity {
+        cursor: help;
+      }
+      header.page {
+        background: #f9f6e6;
+        padding: 0.7rem 1rem;
+      }
+      header.page a {
+        color: #117390;
+        width: 100%;
+      }
+      header.page a:hover {
+        color: #212529;
+        text-decoration: none;
+      }
+      header.page .logo {
+        font-size: 1.5rem;
+        padding-left: 7px;
+      }
+      .page .nav {
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .page.container {
+        margin-bottom: 50px;
+      }
+      .gatsby-image-wrapper {
+        margin-bottom: 30px;
+      }
+      .archive {
+        margin-top: 30px;
+      }
+      .archive .gatsby-image-wrapper {
+        margin: 0;
+      }
+      .archive .gatsby-image-wrapper img {
+        height: auto !important;
+      }
+      .archive .blog-entry {
+        padding: 15px;
+        text-align: center;
+      }
+      .archive-title {
+        font-size: 1.3rem;
+      }
+      .archive p {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+      }
+      .blog-date,
+      .blog-title {
+        color: #fff;
+      }
+      h1.blog-title {
+        font-size: 2rem;
+      }
+      h2.blog-date {
+        font-size: 1.5rem;
+        border-bottom: 4px solid #20a2ce;
+      }
+      .blog-entry {
+        background-color: #fff;
+        padding: 25px;
+        margin-bottom: 25px;
+      }
+      .blog-entry h2 {
+        font-size: 1.6rem;
+      }
+      .blog-entry blockquote {
+        margin: 0 0 1rem;
+        background-color: #d6ffe8;
+        border-left: 5px solid #78e6a7;
+        padding: 10px;
+        font-size: 1rem;
+      }
+      .blog-entry img {
+        max-width: 100%;
+      }
+      .blog-entry em {
+        font-size: 0.7rem;
+      }
+      .prevnext {
+        border-top: 2px solid #5fbb86;
+      }
+      .prevnext p {
+        margin: 1rem 0 0;
+      }
+      .prevnext span {
+        font-size: 2rem;
+      }
+      .notfound {
+        margin: 30px;
+      }
+      .notfound a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .notfound a:hover {
+        color: #ddebef;
+      }
+      h1.uhoh {
+        font-size: 4rem;
+        margin-top: 30px;
+      }
+      .notfound .content {
+        width: 80%;
+        margin: 0 auto 30px;
+      }
+      .notfound img {
+        width: 500px;
+        max-width: 100%;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body,
+      html {
+        height: 100%;
+      }
+      body {
+        font-family: Josefin Sans, Helvetica, Arial, sans-serif;
+        font-size: 1.1rem;
+        margin: 0;
+      }
+      a {
+        color: #12569e;
+      }
+      a,
+      a:hover {
+        text-decoration: none;
+      }
+      a:hover {
+        color: #007bff;
+      }
+      #___gatsby {
+        min-height: 100vh;
+        position: relative;
+        padding-bottom: 60px;
+        background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
+      }
+      #___gatsby #home {
+        background-color: #2cb2d9;
+      }
+      .mb-20 {
+        margin-bottom: 20px;
+      }
+      .container.main a,
+      figcaption a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .container.main a:hover,
+      figcaption a:hover {
+        color: #ddebef;
+      }
+      .recent {
+        display: -webkit-flex;
+        display: flex;
+      }
+      .recent span {
+        text-align: center;
+      }
+      .jumbotron {
+        background: linear-gradient(to bottom right, #2cb2d9 25%, #34c587 75%);
+        background-size: cover;
+        background-position: 50%;
+        border: 0;
+        margin-bottom: 0;
+      }
+      .entry-title {
+        text-align: center;
+        padding: 20px;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 40px;
+        color: #fff;
+      }
+      .entry-title h3 {
+        font-size: 2rem;
+        line-height: 5rem;
+      }
+      p.lead {
+        font-size: 1.7rem;
+        line-height: 1.7rem;
+      }
+      .skills .card h4 {
+        font-size: 1.45rem;
+        color: #043b4e;
+        display: block;
+      }
+      .card-body a {
+        text-decoration: none;
+        margin-left: 8px;
+      }
+      .social {
+        border-top: 2px solid #fff;
+        background-color: #f9f6e6;
+        margin-bottom: 50px;
+      }
+      .social .nav {
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        -webkit-align-items: center;
+        align-items: center;
+        padding: 1em 0;
+      }
+      .bio img {
+        max-width: 100%;
+        border: 6px solid #f9f6e6;
+        width: 250px;
+        border-radius: 50%;
+      }
+      .fa {
+        font-size: 16px;
+        margin-right: 15px;
+      }
+      .fa-github {
+        color: #6e5494;
+      }
+      .card {
+        background-color: transparent;
+        border: 0;
+      }
+      h3 {
+        color: #fff;
+        border-bottom: 4px solid #20a2ce;
+      }
+      .projects {
+        padding: 0 1.25rem;
+      }
+      .projects img {
+        max-width: 100%;
+        border: 8px solid #f9f6e6;
+      }
+      footer {
+        background-color: #0da2ce;
+        text-align: center;
+        color: #fff;
+        padding: 20px 0;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+      }
+      footer p {
+        margin: 0;
+      }
+      footer img {
+        max-height: 30px;
+        width: auto;
+        margin-right: 7px;
+      }
+      body .blog {
+        font-size: 1.2rem;
+      }
+      .blog p {
+        color: inherit;
+      }
+      .blog-nav li {
+        display: inline-block;
+      }
+      .blog h1 {
+        font-weight: 700;
+        border-bottom: 4px solid #20a2ce;
+      }
+      .blog li {
+        list-style-type: none;
+      }
+      .share a:hover {
+        opacity: 0.7;
+      }
+      .share .fab {
+        font-size: 1.4rem;
+        margin: 0 0.4rem;
+      }
+      .share .facebook {
+        color: #3c5a99;
+      }
+      .share .twitter {
+        color: #1da1f2;
+      }
+      code {
+        background-color: #4e4c4c;
+        color: #ddebef !important;
+        display: block;
+        padding-right: 1em;
+        padding-left: 0.75em;
+        border-left: 0.25em solid #20a2ce;
+      }
+      @media screen and (min-width: 768px) {
+        .social .nav {
+          width: 50%;
+          margin: 0 auto;
+        }
+      }
+      @media screen and (max-width: 769px) {
+        .entry-title {
+          width: 100%;
+          padding: 15px 0 0;
+          font-size: 35px;
+        }
+        .entry-title h1 {
+          font-size: 2rem;
+        }
+        .entry-title h2 {
+          font-size: 1.7rem;
+        }
+        .bio img {
+          width: 180px;
+        }
+        .bio h3 {
+          font-size: 1.8rem;
+        }
+        .bio p.lead {
+          font-size: 1.4rem;
+        }
+        .projects {
+          padding-top: 1.25rem;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .container a,
+        .container a:hover {
+          text-decoration: none;
+        }
+      }
+      @media screen and (max-width: 375px) {
+        .entry-title h3 {
+          font-size: 1.4rem;
+          line-height: 3rem;
+        }
+      }
+      .site {
+        font-family: Raleway, Arial, sans-serif;
+        position: relative;
+        float: left;
+        overflow: hidden;
+        max-width: 100%;
+        color: #fff;
+        font-weight: 400;
+        text-align: center;
+        -webkit-perspective: 50em;
+        perspective: 50em;
+      }
+      .site * {
+        box-sizing: padding-box;
+        transition: all 0.2s ease-out;
+      }
+      .site img {
+        max-width: 100%;
+        vertical-align: top;
+      }
+      .site h2,
+      .site h4 {
+        margin: 0;
+      }
+      .site h2 {
+        font-weight: 600;
+        font-size: 0.8rem;
+      }
+      .site a {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 1;
+      }
+      figcaption .fab {
+        display: none;
+      }
+      .pg img {
+        max-width: 100%;
+        vertical-align: top;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        transition: 0.3s ease-in-out;
+      }
+      .pg img:hover {
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+      }
+      figcaption {
+        text-align: center;
+      }
+      .pg a,
+      .pg h4 {
+        margin: 0;
+        font-weight: 600;
+        position: unset;
+        font-size: 0.9rem;
+      }
+      .pg h4 {
+        margin-top: 3px;
+      }
+      .resume-output {
+        background-color: #fff;
+        margin: 50px;
+      }
+    </style>
+    <meta name="generator" content="Gatsby 2.1.29" />
+    <title>Candice Davidson | Software Developer</title>
+    <meta
+      data-react-helmet="true"
+      name="description"
+      content="Software Developer"
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:title"
+      content="Software Developer"
+    />
+    <meta
+      data-react-helmet="true"
+      property="og:description"
+      content="Software Developer"
+    />
+    <meta data-react-helmet="true" property="og:type" content="website" />
+    <meta data-react-helmet="true" name="twitter:card" content="summary" />
+    <meta
+      data-react-helmet="true"
+      name="twitter:creator"
+      content="Candice Davidson"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:title"
+      content="Software Developer"
+    />
+    <meta
+      data-react-helmet="true"
+      name="twitter:description"
+      content="Software Developer"
+    />
+    <meta
+      data-react-helmet="true"
+      name="keywords"
+      content="gatsby, application, react"
+    />
+    <link rel="shortcut icon" href="/icons/icon-48x48.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#663399" />
+    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/icons/icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/icons/icon-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="256x256"
+      href="/icons/icon-256x256.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="384x384"
+      href="/icons/icon-384x384.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="/icons/icon-512x512.png"
+    />
+    <link
+      as="script"
+      rel="preload"
+      href="/webpack-runtime-3190333c6ed91a97bfad.js"
+    />
+    <link as="script" rel="preload" href="/app-ff63d877d72da760ac23.js" />
+    <link as="script" rel="preload" href="/styles-6b9e78bd0d27d1868b41.js" />
+    <link as="script" rel="preload" href="/1-03cfb8f5e3e2ae7da1f2.js" />
+    <link
+      as="script"
+      rel="preload"
+      href="/component---src-pages-index-js-c5eaa660ce03c043c21a.js"
+    />
+    <link
+      as="fetch"
+      rel="preload"
+      href="/static/d/699/path---index-6a9-0URZYcwAGGMNrl4htbgifoMde8.json"
+      crossorigin="use-credentials"
+    />
+    <script charset="utf-8" src="/1-03cfb8f5e3e2ae7da1f2.js"></script>
+    <script
+      charset="utf-8"
+      src="/component---src-pages-index-js-c5eaa660ce03c043c21a.js"
+    ></script>
+    <script
+      charset="utf-8"
+      src="/pages-manifest-69e4cdfc30291b27f222.js"
+    ></script>
+    <link
+      rel="prefetch"
+      href="/static/d/885/path---blog-f-7-a-05d-kVTYbdSCFayoTr1T0hUPrsFXyaw.json"
+    />
+    <link
+      rel="prefetch"
+      href="/component---src-pages-blog-index-js-b0d47b99955531fd0f12.js"
+    />
+    <link
+      rel="prefetch"
+      href="/static/d/738/path---blog-react-gatsby-blog-b-72-b5b-3p05h2Lycpjn42IBnB7VXaYw8w.json"
+    />
+    <link
+      rel="prefetch"
+      href="/component---src-templates-blog-post-js-7dcbd5cca1373022260b.js"
+    />
+    <link
+      rel="prefetch"
+      href="/static/d/219/path---blog-microsoft-leap-experience-677-eed-2vg1dFwwClrTwOBmsMgIUnmmEE.json"
+    />
+    <link
+      rel="prefetch"
+      href="/component---src-templates-blog-post-js-7dcbd5cca1373022260b.js"
+    />
+    <link
+      rel="prefetch"
+      href="/static/d/258/path---blog-microsoft-leap-interview-f-64-62b-9v41vxYOgtCJctnGsvRBsZeBMmA.json"
+    />
+    <script
+      charset="utf-8"
+      src="/component---src-pages-blog-index-js-b0d47b99955531fd0f12.js"
+    ></script>
+    <script
+      charset="utf-8"
+      src="/component---src-templates-blog-post-js-7dcbd5cca1373022260b.js"
+    ></script>
+  </head>
+  <body>
+    <noscript id="gatsby-noscript"
+      >This app works best with JavaScript enabled.</noscript
+    >
+    <div id="___gatsby">
+      <div style="outline: none" tabindex="-1" role="group">
+        <div id="home">
+          <header>
+            <div class="jumbotron">
+              <div class="entry-title">
+                <div class="bio row mt-sm-4 mt-md-0">
+                  <div class="col-sm-12 col-md-4">
+                    <img
+                      src="/static/candice-wyn-718f209697490f06423d69466515ac51.jpg"
+                      alt="Candice Profile"
+                    />
+                  </div>
+                  <div class="col-sm-12 col-md-8 text-sm-center text-md-left">
+                    <h3>Hello, My name is Candice!</h3>
+                    <p class="lead">
+                      I am a Software Developer, based in Miami, FL, who is
+                      devoted to combining the art of design with functional
+                      programming.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <div class="social">
+            <ul class="nav">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/candicedavidson/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/cndragn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li><a href="/blog">Blog</a></li>
+              <li>
+                <a
+                  href="https://docs.google.com/document/d/1tcSlib83Tx6imyr99TJLmGz7WTWHCgDRT1pJ3sp3Vs0/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="container main">
+            <div class="row">
+              <div class="skills col-sm-12 col-md-7">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">Skills</h3>
+                    <h4>Web Technologies:</h4>
+                    <p class="card-text">
+                      React.js, Redux, JavaScript, HTML, CSS, Sass, jQuery,
+                      Bootstrap
+                    </p>
+                    <h4>Back End:</h4>
+                    <p class="card-text">
+                      Azure AD, Ruby, Ruby on Rails, RESTful API, OAuth,
+                      MongoDB, Express.js, Node.js
+                    </p>
+                    <h4>Project Tools:</h4>
+                    <p class="card-text">
+                      Azure DevOps, Travis-CI, Heroku, Git, Github, Gitlab, VSC,
+                      Jest, Enzyme, Agile, npm
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact col-sm-12 col-md-5">
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">Get In Touch</h3>
+                    <p class="card-text">
+                      <i class="fa fa-envelope" aria-hidden="true"></i
+                      ><a href="mailto:cndragn@gmail.com">cndragn@gmail.com</a>
+                    </p>
+                    <p class="card-text">
+                      <i class="fa fa-phone" aria-hidden="true"></i
+                      ><a href="tel:305-432-4789">305-432-4789</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h3 class="card-title">Recent Posts</h3>
+                    <p class="card-text"></p>
+                    <div>
+                      <p class="recent">
+                        <span>Mar 17</span
+                        ><a href="/blog/react-gatsby-blog/"
+                          >Setting up Gatsby with React</a
+                        >
+                      </p>
+                      <p class="recent">
+                        <span>Mar 16</span
+                        ><a href="/blog/microsoft-leap-experience/"
+                          >Microsoft Leap: The Experience</a
+                        >
+                      </p>
+                      <p class="recent">
+                        <span>Mar 15</span
+                        ><a href="/blog/microsoft-leap-interview/"
+                          >Microsoft Leap: The Interview</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row projects">
+              <div class="col-md-12"><h3>Recent Projects</h3></div>
+              <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
+                <a
+                  href="http://clickiton.surge.sh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="/static/clickiton-95c45f36bf9c56b1ddaff78a6eda347d.png"
+                    alt=""
+                /></a>
+                <figcaption>
+                  <h4>React.js | Materialize | Sass | TravisCI CI/CD</h4>
+                  <a
+                    href="http://clickiton.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                  <!-- -->|<!-- -->
+                  <a
+                    href="https://github.com/cndragn/clickiton"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </figcaption>
+              </div>
+              <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
+                <a
+                  href="https://feedback-server-cnd.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="/static/feedback-45c7b1c095fc3fef62860eb698b926db.png"
+                    alt=""
+                /></a>
+                <figcaption>
+                  <h4>React.js | Redux | Express | Mongo | Node | OAuth</h4>
+                  <a
+                    href="https://feedback-server-cnd.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                  <!-- -->|<!-- -->
+                  <a
+                    href="https://github.com/cndragn/feedback-server"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </figcaption>
+              </div>
+              <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
+                <a
+                  href="http://ideaboard-react.surge.sh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="/static/ideaboard-142b2cc5235ffee6aea71abd6607400a.png"
+                    alt=""
+                /></a>
+                <figcaption>
+                  <h4>React | Ruby on Rails | API | Bootstrap</h4>
+                  <a
+                    href="http://ideaboard-react.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                  <!-- -->|<!-- -->
+                  <a
+                    href="https://github.com/cndragn/ideaboard-react"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </figcaption>
+              </div>
+              <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
+                <a
+                  href="http://brandi-react.surge.sh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="/static/brandi-mockup-15807f2b65600550c8acc37d1f1f96b8.png"
+                    alt=""
+                /></a>
+                <figcaption>
+                  <h4>React.js | Bootstrap | Sass | TravisCI CI/CD</h4>
+                  <a
+                    href="http://brandi-react.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                  <!-- -->|<!-- -->
+                  <a
+                    href="https://github.com/cndragn/brandi-mockup"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </figcaption>
+              </div>
+              <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
+                <a
+                  href="https://memori-wyn.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="/static/memori-152cefb60998a11165dda94bcaa26abc.png"
+                    alt=""
+                /></a>
+                <figcaption>
+                  <h4>Ruby on Rails | API | OmniAuth | Materialize</h4>
+                  <a
+                    href="https://memori-wyn.herokuapp.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                  <!-- -->|<!-- -->
+                  <a
+                    href="https://github.com/cndragn/memori-app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </figcaption>
+              </div>
+              <div class="pg col-sm-12 col-md-6 col-lg-4 mb-20">
+                <a
+                  href="http://candav-jscalc.surge.sh/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img
+                    src="/static/calculator-43803ca91b66e48ad65a0e48f16fadac.png"
+                    alt=""
+                /></a>
+                <figcaption>
+                  <h4>HTML | CSS | JavaScript | jQuery</h4>
+                  <a
+                    href="http://candav-jscalc.surge.sh/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Demo</a
+                  >
+                  <!-- -->|<!-- -->
+                  <a
+                    href="https://github.com/cndragn/javascript-calculator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </figcaption>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p class="brand-name">
+              <img
+                src="data:image/png;base64,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"
+                class="img-fluid"
+                alt="Candice Davidson"
+              />
+            </p>
+            <p>
+              ©
+              <!-- -->2021<!-- -->
+              Candice Davidson
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script id="gatsby-script-loader">
+      /*<![CDATA[*/ window.page = {
+        componentChunkName: "component---src-pages-index-js",
+        jsonName: "index",
+        path: "/",
+      };
+      window.dataPath =
+        "699/path---index-6a9-0URZYcwAGGMNrl4htbgifoMde8"; /*]]>*/
+    </script>
+    <script id="gatsby-chunk-mapping">
+      /*<![CDATA[*/ window.___chunkMapping = {
+        app: ["/app-ff63d877d72da760ac23.js"],
+        "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+          "/component---node-modules-gatsby-plugin-offline-app-shell-js-65c8849cdb2aadb70b29.js",
+        ],
+        "component---src-templates-blog-post-js": [
+          "/component---src-templates-blog-post-js-7dcbd5cca1373022260b.js",
+        ],
+        "component---src-pages-404-js": [
+          "/component---src-pages-404-js-63cc1ae37799664c7c4a.js",
+        ],
+        "component---src-pages-blog-index-js": [
+          "/component---src-pages-blog-index-js-b0d47b99955531fd0f12.js",
+        ],
+        "component---src-pages-details-js": [
+          "/component---src-pages-details-js-ce9477fffbb186545181.js",
+        ],
+        "component---src-pages-index-js": [
+          "/component---src-pages-index-js-c5eaa660ce03c043c21a.js",
+        ],
+        "component---src-pages-page-2-js": [
+          "/component---src-pages-page-2-js-f986b39e150fe6374c0a.js",
+        ],
+        "component---src-pages-recent-posts-js": [
+          "/component---src-pages-recent-posts-js-8ff8f1c51ba59a9b27bc.js",
+        ],
+        "component---src-pages-resume-js": [
+          "/component---src-pages-resume-js-16551e6ddfa05595a35d.js",
+        ],
+        "pages-manifest": ["/pages-manifest-69e4cdfc30291b27f222.js"],
+      }; /*]]>*/
+    </script>
+    <script
+      src="/component---src-pages-index-js-c5eaa660ce03c043c21a.js"
+      async=""
+    ></script>
+    <script src="/1-03cfb8f5e3e2ae7da1f2.js" async=""></script>
+    <script src="/styles-6b9e78bd0d27d1868b41.js" async=""></script>
+    <script src="/app-ff63d877d72da760ac23.js" async=""></script>
+    <script src="/webpack-runtime-3190333c6ed91a97bfad.js" async=""></script>
+  </body>
+</html>

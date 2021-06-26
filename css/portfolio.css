@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
 .site {
-  font-family: 'Raleway', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   position: relative;
   float: left;
   overflow: hidden;
@@ -92,7 +92,3 @@ transition-delay: 0.2s;
 transform: rotateX(0);
 opacity: 0.9;
 } */
-
-figcaption .fab, h4 {
-  display: none;
-}
